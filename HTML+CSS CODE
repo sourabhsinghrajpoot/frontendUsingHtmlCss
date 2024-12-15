@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #b5ecb8;
+            color: rgb(236, 97, 97);
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 2rem;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 300px;
+            margin: 1rem;
+            text-align: center;
+            padding: 1rem;
+        }
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 1rem;
+        }
+        .product button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .product button:hover {
+            background-color: #218838;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .search-bar input {
+            padding: 0.5rem;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-bar button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .search-bar button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .contact-info {
+            margin: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our E-commerce Store</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for products...">
+        <button>Search</button>
+    </div>
+    <main>
+        <section class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1616627895217-c3b7a89a4136" alt="Product 1 - Clothes">
+                <h2>Product 1</h2>
+                <p>$20.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Product 2">
+                <h2>Product 2</h2>
+                <p>$25.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1612172289113-bb3a38638e46" alt="Product 3 - Clothes">
+                <h2>Product 3</h2>
+                <p>$30.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Product 4">
+                <h2>Product 4</h2>
+                <p>$22.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1569220610661-23f9f3e6b49e" alt="Product 5 - Clothes">
+                <h2>Product 5</h2>
+                <p>$18.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1603781058143-dba96431144e" alt="Product 6">
+                <h2>Product 6</h2>
+                <p>$27.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1612178990430-2e7d85fa72db" alt="Product 7 - Clothes">
+                <h2>Product 7</h2>
+                <p>$33.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Product 8">
+                <h2>Product 8</h2>
+                <p>$29.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1577452874753-350eca676565" alt="Product 9 - Clothes">
+                <h2>Product 9</h2>
+                <p>$35.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1560448204-e2a3ac8391f0" alt="Product 10">
+                <h2>Product 10</h2>
+                <p>$40.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Product 11">
+                <h2>Product 11</h2>
+                <p>$28.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1604667033372-53ba37e9a24d" alt="Product 12 - Clothes">
+                <h2>Product 12</h2>
+                <p>$32.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section>
+            <h2 style="text-align: center; margin-top: 2rem;">Special Offers</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1596484618440-cbf542f93b47" alt="Special Product 1">
+                    <h2>Special Product 1</h2>
+                    <p><del>$40.00</del> $35.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://images.unsplash.com/photo-1612178990430-2e7d85fa72db" alt="Special Product 2">
+                    <h2>Special Product 2</h2>
+                    <p><del>$50.00</del> $45.00</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="contact-info">
+        <p>Email: support@ecommerce.com</p>
+        <
